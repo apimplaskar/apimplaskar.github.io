@@ -11,5 +11,27 @@ body {
 #header {
   background: #F5F5F5;
   color: #455A64;
-  padding: 1px;
+  height: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#header h2{
+  float: left;
+}
+
+#header ul{
+  float: right;
+  list-style-type: none;
+}
+
+#header ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #455A64;
+}
+
+#header ul li a:hover {
+  color: #1976D2;
+  font-weight: 700;
 }
