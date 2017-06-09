@@ -25,6 +25,13 @@ body {
   list-style-type: none;
 }
 
+#header ul li {
+  float: right;
+  height: inherit;
+  vertical-align: bottom;
+  padding: 7px;
+}
+
 #header ul li a{
   text-decoration: none;
   font-size: 15px;
